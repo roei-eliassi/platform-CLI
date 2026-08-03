@@ -66,3 +66,12 @@ A modular Python CLI tool for managing AWS resources safely with built-in policy
    ```bash
    python3 src/main.py ec2 destroy --id i-XXXXXXXXXXXXXXXXX
    ```
+
+## Daily Development Workflow
+
+When returning to work on the project in a new terminal session, activate the virtual environment and set the Python path:
+
+```bash
+source venv/bin/activate
+export PYTHONPATH=.
+```
